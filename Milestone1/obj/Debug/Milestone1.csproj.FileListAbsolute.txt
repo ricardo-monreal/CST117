@@ -1,0 +1,13 @@
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\Milestone1\bin\Debug\Milestone1.exe.config
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\Milestone1\bin\Debug\Milestone1.exe
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\Milestone1\bin\Debug\Milestone1.pdb
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\Milestone1\obj\Debug\Milestone1.csprojAssemblyReference.cache
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\Milestone1\obj\Debug\Milestone1.Properties.Resources.resources
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\Milestone1\obj\Debug\Milestone1.csproj.GenerateResource.cache
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\Milestone1\obj\Debug\Milestone1.csproj.CoreCompileInputs.cache
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\Milestone1\obj\Debug\Milestone1.exe
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\Milestone1\obj\Debug\Milestone1.pdb
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\Milestone1\obj\Debug\Milestone1.Main.resources
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\Milestone1\obj\Debug\Milestone1.Add.resources
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\Milestone1\obj\Debug\Milestone1.RemoveEdit.resources
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\Milestone1\obj\Debug\Milestone1.ReOrder.resources
