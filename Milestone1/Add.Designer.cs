@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.img_logo = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
@@ -37,7 +36,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -48,23 +46,15 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.img_logo)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.img_logo = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_logo)).BeginInit();
             this.SuspendLayout();
-            // 
-            // img_logo
-            // 
-            this.img_logo.BackgroundImage = global::Milestone1.Properties.Resources._150x100;
-            this.img_logo.ErrorImage = global::Milestone1.Properties.Resources.placeholder_300x202;
-            this.img_logo.InitialImage = global::Milestone1.Properties.Resources.placeholder_300x202;
-            this.img_logo.Location = new System.Drawing.Point(0, 0);
-            this.img_logo.Name = "img_logo";
-            this.img_logo.Size = new System.Drawing.Size(160, 100);
-            this.img_logo.TabIndex = 0;
-            this.img_logo.TabStop = false;
-            this.img_logo.WaitOnLoad = true;
             // 
             // panel1
             // 
@@ -137,6 +127,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.button5);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.richTextBox1);
@@ -154,15 +146,6 @@
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::Milestone1.Properties.Resources._150x100;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(164, 111);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // button4
             // 
@@ -193,7 +176,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(316, 74);
+            this.textBox3.Location = new System.Drawing.Point(316, 102);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(175, 20);
             this.textBox3.TabIndex = 5;
@@ -202,7 +185,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(191, 72);
+            this.label4.Location = new System.Drawing.Point(191, 100);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(101, 20);
             this.label4.TabIndex = 4;
@@ -210,7 +193,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(316, 120);
+            this.textBox4.Location = new System.Drawing.Point(316, 137);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(175, 20);
             this.textBox4.TabIndex = 7;
@@ -219,7 +202,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(191, 118);
+            this.label5.Location = new System.Drawing.Point(191, 137);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(68, 20);
             this.label5.TabIndex = 6;
@@ -252,6 +235,45 @@
             this.button5.Text = "Add Item";
             this.button5.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Milestone1.Properties.Resources._150x100;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(164, 111);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // img_logo
+            // 
+            this.img_logo.BackgroundImage = global::Milestone1.Properties.Resources._150x100;
+            this.img_logo.ErrorImage = global::Milestone1.Properties.Resources.placeholder_300x202;
+            this.img_logo.InitialImage = global::Milestone1.Properties.Resources.placeholder_300x202;
+            this.img_logo.Location = new System.Drawing.Point(0, 0);
+            this.img_logo.Name = "img_logo";
+            this.img_logo.Size = new System.Drawing.Size(160, 100);
+            this.img_logo.TabIndex = 0;
+            this.img_logo.TabStop = false;
+            this.img_logo.WaitOnLoad = true;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(191, 62);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(109, 20);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "Item Category";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(316, 64);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(175, 21);
+            this.comboBox1.TabIndex = 13;
+            // 
             // Add
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -262,12 +284,12 @@
             this.Controls.Add(this.panel1);
             this.Name = "Add";
             this.Text = "Add";
-            ((System.ComponentModel.ISupportInitialize)(this.img_logo)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_logo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -295,5 +317,7 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label7;
     }
 }
