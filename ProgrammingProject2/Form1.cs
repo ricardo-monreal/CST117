@@ -53,7 +53,7 @@ namespace ProgrammingProject2
             // add selected items to string
             foreach (var itemChecked in checkedListBox_toppings.CheckedItems)
             {
-                selectedToppings += itemChecked + " ";
+                selectedToppings += itemChecked + ", ";
             }
 
             // check which radio button was checked and display appropiate info for each.
