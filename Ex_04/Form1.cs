@@ -13,10 +13,7 @@ namespace Ex_04
     public partial class SecondsConverter : Form
     {
         double seconds;
-        double minutes;
-        double hours;
-        double days;
-        double totalSeconds;
+       
 
 
         public SecondsConverter()
@@ -34,14 +31,27 @@ namespace Ex_04
 
         }
 
-        private void txt_DisplayResult_TextChanged(object sender, EventArgs e)
-        {
+        //private void txt_DisplayResult_TextChanged(object sender, EventArgs e)
+        //{
 
-        }
+        //}
 
         private void btn_Submit_Click(object sender, EventArgs e)
         {
-            seconds = Convert.ToDouble(txt_EnterSeconds.Text);
+            // exception  handler
+            try
+            {
+                seconds = Convert.ToDouble(txt_EnterSeconds.Text);
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Invalid Character. Please enter only numbers");
+                txt_EnterSeconds.Clear();
+
+            }
+
+            // convert seconds to minutes
             if (seconds >= 60 && seconds < 3600)
             {
                 double minutes = seconds / 60;
@@ -49,14 +59,15 @@ namespace Ex_04
                 lbl_DisplayResult.Text = Math.Round(minutes,2).ToString() + " minutes.";
             }
 
+            // convert seconds to hours
             else if (seconds >= 3600 && seconds < 86400)
             {
                 double hours = seconds / 3600;
                 ResulTextLabel();
                 lbl_DisplayResult.Text = Math.Round(hours,2).ToString() + " hours.";
-
             }
 
+            // convert seconds to hours
             else if (seconds >= 86400)
             {
                 double days = seconds / 86400;
@@ -64,14 +75,17 @@ namespace Ex_04
                 lbl_DisplayResult.Text = Math.Round(days,2).ToString() + " days.";
             }
 
+            // if seconds entered < 60, display number entered.
             else
             {
-                // exceptino handler if something other than numbers are entered
-                MessageBox.Show("Invalid Character. Please enter only numbers");
+                ResulTextLabel();
+                lbl_DisplayResult.Text = seconds + " seconds.";
             }
+
 
         }
 
+        // clear forms
         private void btn_Clear_Click(object sender, EventArgs e)
         {
             lbl_DisplayResult.Text = "";
@@ -83,7 +97,7 @@ namespace Ex_04
         {
 
         }
-
+        // method to display on invisible Label
         private void ResulTextLabel()
         {
             lbl_Results_Text.Visible = true;
@@ -92,7 +106,7 @@ namespace Ex_04
         }
 
       
-
+        // FontAwesome logo
         private void img_logo_Click(object sender, EventArgs e)
         {
 
