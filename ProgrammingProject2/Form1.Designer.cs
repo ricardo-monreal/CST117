@@ -39,7 +39,6 @@
             this.groupBox_flavor = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btn_Order = new System.Windows.Forms.Button();
-            this.btn_Clear = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.img_logo)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox_flavor.SuspendLayout();
@@ -48,7 +47,7 @@
             // 
             // img_logo
             // 
-            this.img_logo.BackColor = System.Drawing.SystemColors.Control;
+            this.img_logo.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.img_logo.ForeColor = System.Drawing.Color.PaleVioletRed;
             this.img_logo.IconChar = FontAwesome.Sharp.IconChar.IceCream;
             this.img_logo.IconColor = System.Drawing.Color.PaleVioletRed;
@@ -143,8 +142,9 @@
             "Mashmallows"});
             this.checkedListBox_toppings.Location = new System.Drawing.Point(11, 26);
             this.checkedListBox_toppings.Name = "checkedListBox_toppings";
-            this.checkedListBox_toppings.Size = new System.Drawing.Size(177, 154);
+            this.checkedListBox_toppings.Size = new System.Drawing.Size(177, 151);
             this.checkedListBox_toppings.TabIndex = 6;
+            this.checkedListBox_toppings.SelectedIndexChanged += new System.EventHandler(this.checkedListBox_toppings_SelectedIndexChanged);
             // 
             // groupBox1
             // 
@@ -190,22 +190,14 @@
             this.btn_Order.FlatAppearance.BorderSize = 2;
             this.btn_Order.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Order.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn_Order.Location = new System.Drawing.Point(547, 392);
+            this.btn_Order.Location = new System.Drawing.Point(647, 384);
             this.btn_Order.Margin = new System.Windows.Forms.Padding(0);
             this.btn_Order.Name = "btn_Order";
             this.btn_Order.Size = new System.Drawing.Size(100, 35);
             this.btn_Order.TabIndex = 10;
             this.btn_Order.Text = "Place Order!";
             this.btn_Order.UseVisualStyleBackColor = false;
-            // 
-            // btn_Clear
-            // 
-            this.btn_Clear.Location = new System.Drawing.Point(650, 392);
-            this.btn_Clear.Name = "btn_Clear";
-            this.btn_Clear.Size = new System.Drawing.Size(100, 35);
-            this.btn_Clear.TabIndex = 11;
-            this.btn_Clear.Text = "Clear Form";
-            this.btn_Clear.UseVisualStyleBackColor = true;
+            this.btn_Order.Click += new System.EventHandler(this.btn_Order_Click);
             // 
             // ProgrammingProject2
             // 
@@ -213,7 +205,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btn_Clear);
             this.Controls.Add(this.btn_Order);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox_flavor);
@@ -248,7 +239,6 @@
         private System.Windows.Forms.GroupBox groupBox_flavor;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btn_Order;
-        private System.Windows.Forms.Button btn_Clear;
     }
 }
 
