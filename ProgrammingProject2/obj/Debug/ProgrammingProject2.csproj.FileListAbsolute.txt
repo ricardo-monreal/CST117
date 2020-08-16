@@ -1,0 +1,12 @@
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject2\bin\Debug\ProgrammingProject2.exe.config
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject2\bin\Debug\ProgrammingProject2.exe
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject2\bin\Debug\ProgrammingProject2.pdb
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject2\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject2\obj\Debug\ProgrammingProject2.csprojAssemblyReference.cache
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject2\obj\Debug\ProgrammingProject2.Properties.Resources.resources
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject2\obj\Debug\ProgrammingProject2.csproj.GenerateResource.cache
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject2\obj\Debug\ProgrammingProject2.csproj.CoreCompileInputs.cache
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject2\obj\Debug\ProgrammingProject2.csproj.CopyComplete
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject2\obj\Debug\ProgrammingProject2.exe
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject2\obj\Debug\ProgrammingProject2.pdb
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject2\obj\Debug\ProgrammingProject2.ProgrammingProject2.resources
