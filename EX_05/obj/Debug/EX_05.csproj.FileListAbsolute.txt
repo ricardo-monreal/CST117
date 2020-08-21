@@ -1,0 +1,10 @@
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_05\obj\Debug\EX_05.csprojAssemblyReference.cache
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_05\obj\Debug\EX_05.Ex_05.resources
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_05\obj\Debug\EX_05.Properties.Resources.resources
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_05\obj\Debug\EX_05.csproj.GenerateResource.cache
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_05\obj\Debug\EX_05.csproj.CoreCompileInputs.cache
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_05\bin\Debug\EX_05.exe.config
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_05\bin\Debug\EX_05.exe
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_05\bin\Debug\EX_05.pdb
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_05\obj\Debug\EX_05.exe
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_05\obj\Debug\EX_05.pdb
