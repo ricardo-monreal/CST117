@@ -16,20 +16,24 @@ namespace EX_05
         {
             InitializeComponent();
         }
-
+        
         private void btn_Calculate_Click(object sender, EventArgs e)
         {
+            // variable that holds the user input
             int termsEntered;
+
+            // exception handling
             bool calculation = Int32.TryParse(txt_termsEntered.Text, out termsEntered);
 
             if (calculation)
             {
 
-                decimal pi = 0;
-                decimal d = 1;
+                double pi = 0;
+                double d = 1;
 
                 for (int i = 1; i <= termsEntered; i++)
                 {
+                    // check for odd numbers
                     if (i % 2 != 0)
                     {
                         pi += (4 / d);
@@ -39,7 +43,7 @@ namespace EX_05
                         pi -= (4 / d);
                     }
 
-                    // increase denominator by 2 after each loop
+                    // increase denominator by 2 after each loop, so 3, 5, 7, 9, 11 etc
                     d += 2;
                 }
                 lbl_calculationTerms.Text = "Approximate value of PI after " + termsEntered + " terms.";
