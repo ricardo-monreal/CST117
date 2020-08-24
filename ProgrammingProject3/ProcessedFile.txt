@@ -1,0 +1,4 @@
+First word alphabetically:  a
+Last word alphabetically:   young
+Longest Word:               established
+Word with the most vowels:  rebellion.
