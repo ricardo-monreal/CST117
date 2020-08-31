@@ -1,0 +1,7 @@
+C:\Users\moise\source\repos\EX_06_Console\obj\Debug\EX_06_Console.csproj.CoreCompileInputs.cache
+C:\Users\moise\source\repos\EX_06_Console\bin\Debug\EX_06_Console.exe.config
+C:\Users\moise\source\repos\EX_06_Console\bin\Debug\EX_06_Console.exe
+C:\Users\moise\source\repos\EX_06_Console\bin\Debug\EX_06_Console.pdb
+C:\Users\moise\source\repos\EX_06_Console\obj\Debug\EX_06_Console.exe
+C:\Users\moise\source\repos\EX_06_Console\obj\Debug\EX_06_Console.pdb
+C:\Users\moise\source\repos\EX_06_Console\obj\Debug\EX_06_Console.csprojAssemblyReference.cache
