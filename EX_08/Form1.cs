@@ -3,6 +3,10 @@
  * Grand Canyon University
  * CST-117
  * Exercise 8
+ * 
+ * The application takes a numerical value (grams) 
+ * and converts it to its equivalent in calories from fat or carbohydrates. 
+ * 
  */
 using System;
 using System.Collections.Generic;
@@ -35,11 +39,20 @@ namespace EX_08
             double value;
 
             // convert string to double
-            fat = double.Parse(textBox_ValueInGrams.Text);
-            // calls method with fat as arguments
-            value = FatCalories(fat);
-            // display results as Messagebox
-            MessageBox.Show($"The number of calories from fat are:  {value} ");
+            try
+            {
+                fat = double.Parse(textBox_ValueInGrams.Text);
+                // calls method with fat as arguments
+                value = FatCalories(fat);
+                // display results as Messagebox
+                MessageBox.Show($"The number of calories from fat are:  {value} ");
+
+            }
+            catch (Exception)
+            {
+                NumericalPolice();
+            }
+           
 
             
         }
@@ -49,12 +62,22 @@ namespace EX_08
             // declare variables
             double carbs;
             double cal;
+
+
             // converts string to double
-            carbs = double.Parse(textBox_ValueInGrams.Text);
-            // calls method with carbs as arguments
-            cal = CarbCalories(carbs);
-            // display results as messagebox
-            MessageBox.Show($"The number of calories from Carbs are: {cal}");
+            try
+            {
+                carbs = double.Parse(textBox_ValueInGrams.Text);
+                // calls method with carbs as arguments
+                cal = CarbCalories(carbs);
+                // display results as messagebox
+                MessageBox.Show($"The number of calories from Carbs are: {cal}");
+            }
+            catch (Exception)
+            {
+                NumericalPolice();
+            }
+            
         }
 
         // Fat method
@@ -69,6 +92,13 @@ namespace EX_08
         {
             // calories from carbs formula
             return (carbs * 4);
+        }
+
+
+        // Exception handler method
+        private void NumericalPolice()
+        {
+            MessageBox.Show("Please enter a numerical value.");
         }
 
        
