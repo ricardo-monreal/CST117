@@ -1,0 +1,10 @@
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_08\bin\Debug\EX_08.exe.config
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_08\bin\Debug\EX_08.exe
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_08\bin\Debug\EX_08.pdb
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_08\obj\Debug\EX_08.csprojAssemblyReference.cache
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_08\obj\Debug\EX_08.Form1.resources
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_08\obj\Debug\EX_08.Properties.Resources.resources
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_08\obj\Debug\EX_08.csproj.GenerateResource.cache
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_08\obj\Debug\EX_08.csproj.CoreCompileInputs.cache
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_08\obj\Debug\EX_08.exe
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_08\obj\Debug\EX_08.pdb
