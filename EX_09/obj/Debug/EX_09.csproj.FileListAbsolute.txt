@@ -1,0 +1,7 @@
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_09\bin\Debug\EX_09.exe.config
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_09\bin\Debug\EX_09.exe
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_09\bin\Debug\EX_09.pdb
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_09\obj\Debug\EX_09.csprojAssemblyReference.cache
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_09\obj\Debug\EX_09.csproj.CoreCompileInputs.cache
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_09\obj\Debug\EX_09.exe
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\EX_09\obj\Debug\EX_09.pdb
