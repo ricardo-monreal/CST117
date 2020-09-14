@@ -13,18 +13,55 @@ namespace Milestone2
     {
         static void Main(string[] args)
         {
-            ProductInventory product = new ProductInventory("Andis Master", 99.99M, 2, 1.2, "Traditional hair clipper. Widely used");
-
-         
 
 
-            Console.WriteLine("Product Name: " + product.Name );
-            Console.WriteLine("Price: " + product.Price);
-            Console.WriteLine("Quantity: " + product.Quantity);
-            Console.WriteLine("Weight: " + product.Weight);
-            Console.WriteLine("Description: " + product.Description);
+            InventoryManager intManager = new InventoryManager();
+            ProductInventory AndisMaster = new ProductInventory("Andis Master", 99.99M, 2, 1.2, "Traditional hair clipper. Widely used");
 
+            Console.WriteLine("###### Driver Test Class #######\n");
+            intManager.addItem(AndisMaster);
+            Console.WriteLine("Before Editing\n");
+            Console.WriteLine("Product Name: " + AndisMaster.Name);
+            Console.WriteLine("Price: " + AndisMaster.Price);
+            Console.WriteLine("Quantity: " + AndisMaster.Quantity);
+            Console.WriteLine("Weight: " + AndisMaster.Weight + " lbs");
+            Console.WriteLine("Description: " + AndisMaster.Description);
+
+
+           
+            Console.WriteLine();
+            Console.WriteLine("\nAfter Adding inventory and Adjusting price.");
+            Console.WriteLine();
+            
+            AndisMaster.Quantity = 10;
+            AndisMaster.Price = 133.99M;
+
+            Console.WriteLine("Product Name: " + AndisMaster.Name);
+            Console.WriteLine("Price: " + AndisMaster.Price);
+            Console.WriteLine("Quantity: " + AndisMaster.Quantity);
+            Console.WriteLine("Weight: " + AndisMaster.Weight + " lbs");
+            Console.WriteLine("Description: " + AndisMaster.Description);
+
+            Console.WriteLine();
+            Console.WriteLine("\nAfter removing inventory, adjusting weight and changing description.");
+            Console.WriteLine();
+
+
+            AndisMaster.Quantity = 4;
+            AndisMaster.Weight = 1.3;
+            AndisMaster.Description = "High utility hair clipper";
+
+            Console.WriteLine("Product Name: " + AndisMaster.Name);
+            Console.WriteLine("Price: " + AndisMaster.Price);
+            Console.WriteLine("Quantity: " + AndisMaster.Quantity);
+            Console.WriteLine("Weight: " + AndisMaster.Weight + " lbs");
+            Console.WriteLine("Description: " + AndisMaster.Description);
+
+           
             Console.ReadLine();
+            
         }
+
+      
     }
 }

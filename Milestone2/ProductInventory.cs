@@ -26,5 +26,55 @@ namespace Milestone2
             this.Description = description;
         }
 
+
+        public bool OutOfStock()
+        {
+            return Quantity == 0;
+        }
+
+        private bool QuantityPurchasable(int requested)
+        {
+            return Quantity >= requested;
+        }
+
+
+        public bool PurchaseItem(int requested)
+        {
+            if (requested > 0 && !OutOfStock() && QuantityPurchasable(requested))
+            {
+                Quantity = Quantity - requested;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public override bool Equals(object obj)
+        {
+            return (obj is ProductInventory) && ((ProductInventory)obj).Name == Name;
+        }
+
+        public bool Equals(string name)
+        {
+            return name == Name;
+        }
+
+        public bool Equals(string name, string desc)
+        {
+            return name == Name || desc == Description;
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
+        public override string ToString()
+        {
+            return "Name: " + Name + "\n " + "Description: " + Description + "\n" + "Quantity: " + Quantity;
+        }
+
     }
 }
