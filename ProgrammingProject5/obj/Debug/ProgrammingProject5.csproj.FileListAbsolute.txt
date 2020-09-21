@@ -1,0 +1,11 @@
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject5\bin\Debug\ProgrammingProject5.exe.config
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject5\bin\Debug\ProgrammingProject5.exe
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject5\bin\Debug\ProgrammingProject5.pdb
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject5\obj\Debug\ProgrammingProject5.csprojAssemblyReference.cache
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject5\obj\Debug\ProgrammingProject5.Form1.resources
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject5\obj\Debug\ProgrammingProject5.Properties.Resources.resources
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject5\obj\Debug\ProgrammingProject5.csproj.GenerateResource.cache
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject5\obj\Debug\ProgrammingProject5.csproj.CoreCompileInputs.cache
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject5\obj\Debug\ProgrammingProject5.exe
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject5\obj\Debug\ProgrammingProject5.pdb
+C:\Users\moise\OneDrive\repos\School\CST117\CST117\ProgrammingProject5\obj\Debug\ProgrammingProject5.Form2.resources
